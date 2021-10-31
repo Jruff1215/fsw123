@@ -3,7 +3,7 @@ const Todo = ( {itemData} ) => {
     return (
         <div>
             <input type='checkbox' />
-            <span>{itemData}</span>
+            <span style={{textDecoration: 'lineThrough'}}>{itemData}</span>
         </div>
     ) 
 }

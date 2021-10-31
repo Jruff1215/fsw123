@@ -1,0 +1,44 @@
+body{
+    background-color:black;
+    color: red;
+}
+.dice {
+    width: 100px;
+    height: 100px;
+    display: inline-grid;
+    margin: 3% 3% 3% 3%;
+
+}
+button {
+    color: red;
+    position: absolute;
+    top: 225px;
+    left: 445px;
+
+    align-items: center;
+    height: 50px;
+    width: 75px;
+}
+.img-1 {
+    background-image: url('./react-dice-assets/1.png');
+}
+
+.img-2 {
+    background-image: url('./react-dice-assets/2.png');
+}
+
+.img-3 {
+    background-image: url('./react-dice-assets/3.png');
+}
+
+.img-4 {
+    background-image: url('./react-dice-assets/4.png');
+}
+
+.img-5 {
+    background-image: url('./react-dice-assets/5.png');
+}
+
+.img-6 {
+    background-image: url('./react-dice-assets/6.png');
+}
