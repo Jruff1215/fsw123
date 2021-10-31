@@ -13,12 +13,11 @@ function Rolldice() {
     
     return (
         <div>
-            <p style ={{color: 'white'}}>You have rolled a {roll} and {roll2}</p>
-            <button onClick={() => setRoll(randomNum) + setRoll2(randomNum2)}>
-            Roll Die
-            </button>
             <Die roll={roll} />
             <Die2 roll2={roll2} />
+            <p style ={{color: 'white'}}>You have rolled a {roll} and {roll2}</p>
+            <button onClick={() => setRoll(randomNum) + setRoll2(randomNum2)}>
+            Roll Die</button>
         </div>
     );
 }
