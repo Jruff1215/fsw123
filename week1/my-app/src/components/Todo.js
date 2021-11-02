@@ -9,8 +9,8 @@ const Todo = ( {itemData, completeTodo, deleteTodo} ) => {
     }
     return (
         <div>
-            <input type='checkbox' checked={itemData.isComplete} onChange={handleChange} />
-            <span style={{textDecoration: 'lineThrough'}}>{itemData.name}</span>
+            <input type='checkbox' checked={itemData.isComplete}   onChange={handleChange} />
+            <span>{itemData.name}</span>
             <button onClick={handleClick} >X</button>
         </div>
     ) 
