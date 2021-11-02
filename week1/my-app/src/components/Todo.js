@@ -1,9 +1,17 @@
 
-const Todo = ( {itemData} ) => {
+const Todo = ( {itemData, completeTodo, deleteTodo} ) => {
+    
+    const handleChange = (e) => {
+        completeTodo(itemData.id)
+    }
+    const handleClick = (e) => {
+        deleteTodo(itemData.id)
+    }
     return (
         <div>
-            <input type='checkbox' />
-            <span style={{textDecoration: 'lineThrough'}}>{itemData}</span>
+            <input type='checkbox' checked={itemData.isComplete} onChange={handleChange} />
+            <span style={{textDecoration: 'lineThrough'}}>{itemData.name}</span>
+            <button onClick={handleClick} >X</button>
         </div>
     ) 
 }
