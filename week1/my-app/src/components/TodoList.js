@@ -4,12 +4,12 @@ import Todo from "./Todo"
 
 
 
-const TodoList = ({todos, completeTodo, deleteTodo}) => {
+const TodoList = ({todos, completeTodo, deleteTodo, editTodo}) => {
     
     const mappedItems = todos.map( (item, index) => {
         return (
             <div>
-                <Todo itemData={item} key = {index} completeTodo={completeTodo} deleteTodo={deleteTodo} />
+                <Todo itemData={item} key = {index} completeTodo={completeTodo} deleteTodo={deleteTodo} editTodo={editTodo} />
        </div> )
     
     })
