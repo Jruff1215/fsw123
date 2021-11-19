@@ -68,3 +68,9 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+This project is a Bounty Hunter Site, Where you can find information about the bounty hunters, you can add a bounty to the list, delete a bounty from the list and view a list of the bounties.
+
+The components are the BountyHome which is the homepage, BountyAbout which is the About page, BountyContact which is the contact and also the page where you can view the info on the bounties and make and edit the bounties, BountyForm created the form field used to enter the information, NavBar is used to navigate through the pages and Bounty contains the information displayed.
+
+Some problems I experienced were getting the info to display as well as some styling issues and a bit of trouble with the CRUD operations.
